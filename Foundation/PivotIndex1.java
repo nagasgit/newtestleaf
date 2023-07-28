@@ -1,10 +1,10 @@
-package July21_ClassWork;
+package newtestleaf.Foundation;
 
 import org.junit.Test;
 
 import junit.framework.Assert;
 
-public class PivotIndex {
+public class PivotIndex1 {
 	
 	/*
 	 *  Given an array of integers nums, calculate the pivot index of this array.
