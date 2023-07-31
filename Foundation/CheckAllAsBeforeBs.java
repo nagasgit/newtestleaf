@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package newtestleaf.Foundation;
 
 import org.junit.Test;
@@ -5,6 +6,14 @@ import org.junit.Test;
 import junit.framework.Assert;
 
 /*
+=======
+package july15;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+    /*
+>>>>>>> e3f5046c4e330497d4f4079f77fc0ef9c1f0193f
     Given a string s consisting of only the characters 'a' and 'b',
     return true if every 'a' appears before every 'b' in the string.
     Otherwise, return false.

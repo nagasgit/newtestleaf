@@ -1,12 +1,22 @@
+<<<<<<< HEAD
 package newtestleaf.Foundation;
+=======
+package july1st.breakoutsession.program;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+>>>>>>> e3f5046c4e330497d4f4079f77fc0ef9c1f0193f
 
 import java.util.Map;
 import java.util.TreeMap;
 
+<<<<<<< HEAD
 import org.junit.Test;
 
 import junit.framework.Assert;
 
+=======
+>>>>>>> e3f5046c4e330497d4f4079f77fc0ef9c1f0193f
 public class ContainsDuplicate_HW {
 
     /*
