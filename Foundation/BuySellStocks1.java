@@ -1,9 +1,9 @@
-package July21_ClassWork;
+package newtestleaf.Foundation;
 
 import org.junit.Assert;
 import org.junit.Test;
 
-public class BuySellStocks {
+public class BuySellStocks1 {
 
 	/*
 	 * You are given an array prices where prices[i] is the price of a given stock

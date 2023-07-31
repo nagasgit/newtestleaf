@@ -19,18 +19,18 @@ public class ExcelSheetColumnNum {
 	 * 
 	 * Example 3: Input: columnTitle = "ZY" Output: 701
 	 * 
-	 * Pseudo Code: Iterate through the characters of the column title in reverse
-	 * order. Convert each character to its corresponding numeric value (A=1, B=2,
-	 * ..., Z=26). Multiply the numeric value by the appropriate power of 26 based
-	 * on its position in the column title. Sum up all the values to get the final
-	 * column number.
+	 * Pseudo Code: 
+	 * Iterate through the characters of the column title in reverse order. 
+	 * Convert each character to its corresponding numeric value (A=1, B=2,* ..., Z=26). 
+	 * Multiply the numeric value by the appropriate power of 26 based on its position in the column title. 
+	 * Sum up all the values to get the final column number.
 	 * 
 	 */
 
 	@Test
 	public void test1() {
-		int actual = excelSheetColNum("ACC");
-		Assert.assertEquals(actual, 757);
+		int actual = excelSheetColNum("AAC");
+		Assert.assertEquals(actual, 703);
 	}
 
 	public int excelSheetColNum(String input) {
