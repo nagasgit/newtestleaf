@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package newtestleaf.Foundation;
 
 import java.util.Map;
@@ -8,17 +7,6 @@ import org.junit.Test;
 
 import junit.framework.Assert;
 
-=======
-package july1st.breakoutsession.program;
-
-import org.testng.Assert;
-import org.testng.annotations.Test;
-
-import java.lang.reflect.MalformedParameterizedTypeException;
-import java.util.Map;
-import java.util.TreeMap;
-
->>>>>>> e3f5046c4e330497d4f4079f77fc0ef9c1f0193f
 public class Array_MajorityElement {
 
     /* PseudoCode -

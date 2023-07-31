@@ -1,11 +1,14 @@
-package july8.homework;
+package newtestleaf.Foundation;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
+
 
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
+
+import org.junit.Test;
+
+import junit.framework.Assert;
 
 public class SingleNumber {
 

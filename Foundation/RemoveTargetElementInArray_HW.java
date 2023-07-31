@@ -1,10 +1,13 @@
-package july1st.breakoutsession.program;
+package newtestleaf.Foundation;
 
-import org.testng.AssertJUnit;
-import org.testng.annotations.Test;
+
+
+import static org.junit.Assert.assertArrayEquals;
 
 import java.util.LinkedHashSet;
 import java.util.Set;
+
+import org.junit.Test;
 
 public class RemoveTargetElementInArray_HW {
 
@@ -29,19 +32,19 @@ public class RemoveTargetElementInArray_HW {
     @Test
     public void test1() {
         Object[] actual = removeTargetEle(new int[]{2, 3, 3, 4, 5}, 3);
-        AssertJUnit.assertArrayEquals(actual, new Object[]{2, 4, 5});
+        assertArrayEquals(actual, new Object[]{2, 4, 5});
     }
 
     @Test
     public void test2() {
         Object[] actual = removeTargetEle(new int[]{2, 2}, 2);
-        AssertJUnit.assertArrayEquals(actual, new Object[]{});
+        assertArrayEquals(actual, new Object[]{});
     }
 
     @Test
     public void test3() {
         Object[] actual = removeTargetEle(new int[]{2, 3, 4, 5, 6, 0, 1}, 5);
-        AssertJUnit.assertArrayEquals(actual, new Object[]{2, 3, 4, 6, 0, 1});
+        assertArrayEquals(actual, new Object[]{2, 3, 4, 6, 0, 1});
     }
 
     public Object[] removeTargetEle(int[] input, int n) {

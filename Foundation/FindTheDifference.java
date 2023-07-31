@@ -1,8 +1,8 @@
-package july15;
+package newtestleaf.Foundation;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
-import org.testng.internal.IContainer;
+import org.junit.Test;
+
+import junit.framework.Assert;
 
 public class FindTheDifference {
     /*

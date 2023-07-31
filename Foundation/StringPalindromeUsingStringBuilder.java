@@ -1,7 +1,8 @@
-package july14.day1;
+package newtestleaf.Foundation;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
+import org.junit.Test;
+
+import junit.framework.Assert;
 
 public class StringPalindromeUsingStringBuilder {
 

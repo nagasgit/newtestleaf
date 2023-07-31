@@ -1,17 +1,8 @@
-<<<<<<< HEAD
 package newtestleaf.Foundation;
 
 import org.junit.Test;
 
 import junit.framework.Assert;
-=======
-package july8.day1;
-
-import org.testng.Assert;
-import org.testng.annotations.Test;
-
-import java.util.Arrays;
->>>>>>> e3f5046c4e330497d4f4079f77fc0ef9c1f0193f
 
 public class BuyStocksSellStocks {
     /*

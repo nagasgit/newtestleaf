@@ -1,13 +1,14 @@
-package july1st.breakoutsession.program;
+package newtestleaf.Foundation;
 
-import org.testng.Assert;
-import org.testng.AssertJUnit;
-import org.testng.annotations.Test;
 
 import java.util.Collection;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
+
+import org.junit.Test;
+
+import junit.framework.Assert;
 
 /*
 Given a non-empty array of integers nums, every element appears twice except for one.
@@ -38,7 +39,7 @@ public class DistinctOne_HW {
     @Test
     public void test1() {
         Integer[] actual = distinctOne(new int[]{2, 2, 1});
-        AssertJUnit.assertArrayEquals(actual,new Integer[] {1});
+        Assert.assertEquals(actual,new Integer[] {1});
        // Assert.assertEquals(actual, );
     }
 

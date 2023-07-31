@@ -1,9 +1,12 @@
-package july8.homework;
+package newtestleaf.Foundation;
 
-import org.testng.AssertJUnit;
-import org.testng.annotations.Test;
+
+
+import static org.junit.Assert.assertArrayEquals;
 
 import java.util.Arrays;
+
+import org.junit.Test;
 
 public class SquaresOfSortedArray {
 
@@ -31,19 +34,19 @@ public class SquaresOfSortedArray {
     @Test
     public void test1() {
         int[] actual = sqrsOfSortedArr(new int[]{-4, -1, 0, 3, 10});
-        AssertJUnit.assertArrayEquals(actual, new int[]{0, 1, 9, 16, 100});
+        assertArrayEquals(actual, new int[]{0, 1, 9, 16, 100});
     }
 
     @Test
     public void test2() {
         int[] actual = sqrsOfSortedArr(new int[]{-7, -3, 2, 3, 11});
-        AssertJUnit.assertArrayEquals(actual, new int[]{4, 9, 9, 49, 121});
+        assertArrayEquals(actual, new int[]{4, 9, 9, 49, 121});
     }
 
     @Test
     public void test3() {
         int[] actual = sqrsOfSortedArr(new int[]{});
-        AssertJUnit.assertArrayEquals(actual, new int[]{});
+        assertArrayEquals(actual, new int[]{});
     }
 
     public int[] sqrsOfSortedArr(int[] input) {

@@ -1,8 +1,8 @@
-package july8.day2;
+package newtestleaf.Foundation;
 
-import org.testng.Assert;
-import org.testng.AssertJUnit;
-import org.testng.annotations.Test;
+import static org.junit.Assert.assertArrayEquals;
+
+import org.junit.Test;
 
 public class ReturnArrayIndices {
 
@@ -17,19 +17,19 @@ public class ReturnArrayIndices {
     @Test
     public void test1() {
         int[] actual = returnArrayIndices(new int[]{1, 2, 3}, 4);
-        AssertJUnit.assertArrayEquals(actual, new int[]{0, 2});
+        assertArrayEquals(actual, new int[]{0, 2});
     }
 
     @Test
     public void test2() {
         int[] actual = returnArrayIndices(new int[]{3, 2, 4}, 6);
-        AssertJUnit.assertArrayEquals(actual, new int[]{1, 2});
+        assertArrayEquals(actual, new int[]{1, 2});
     }
 
     @Test
     public void test3() {
         int[] actual = returnArrayIndices(new int[]{3, 3}, 6);
-        AssertJUnit.assertArrayEquals(actual, new int[]{0, 1});
+        assertArrayEquals(actual, new int[]{0, 1});
     }
 
     public int[] returnArrayIndices(int[] input, int target) {

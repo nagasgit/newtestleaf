@@ -1,7 +1,8 @@
-package july1st.breakoutsession.program;
+package newtestleaf.Foundation;
 
-import org.testng.AssertJUnit;
-import org.testng.annotations.Test;
+import static org.junit.Assert.assertArrayEquals;
+
+import org.junit.Test;
 
 public class MoveZerosToEnd_HW {
 
@@ -30,35 +31,35 @@ public class MoveZerosToEnd_HW {
     public void test1() {
         int[] actual = moveZerosInaArray(new int[]{0, 1, 0, 3, 12});
         //System.out.println(actual);
-        AssertJUnit.assertArrayEquals(actual, new int[]{1, 3, 12, 0, 0});
+        assertArrayEquals(actual, new int[]{1, 3, 12, 0, 0});
     }
 
     @Test
     public void test2() {
         int[] actual = moveZerosInaArray(new int[]{0});
         //System.out.println(actual);
-        AssertJUnit.assertArrayEquals(actual, new int[]{0});
+        assertArrayEquals(actual, new int[]{0});
     }
 
     @Test
     public void test3() {
         int[] actual = moveZerosInaArray(new int[]{0, 1, 1});
         //System.out.println(actual);
-        AssertJUnit.assertArrayEquals(actual, new int[]{1, 1, 0});
+        assertArrayEquals(actual, new int[]{1, 1, 0});
     }
 
     @Test
     public void test4() {
         int[] actual = moveZerosInaArray(new int[]{1, 1, 1});
         //System.out.println(actual);
-        AssertJUnit.assertArrayEquals(actual, new int[]{1, 1, 1});
+        assertArrayEquals(actual, new int[]{1, 1, 1});
     }
 
     @Test
     public void test5() {
         int[] actual = moveZerosInaArray(new int[]{0, 1, 0, 1, 0, 1});
         //System.out.println(actual);
-        AssertJUnit.assertArrayEquals(actual, new int[]{1, 1, 1, 0, 0, 0});
+        assertArrayEquals(actual, new int[]{1, 1, 1, 0, 0, 0});
     }
 
     public static int[] moveZerosInaArray(int[] input) {

@@ -1,10 +1,9 @@
-package july1st.breakoutsession.program;
+package newtestleaf.Foundation;
 
-import org.testng.Assert;
-import org.testng.AssertJUnit;
-import org.testng.annotations.Test;
 
-import static org.testng.internal.junit.ArrayAsserts.assertArrayEquals;
+import static org.junit.Assert.assertArrayEquals;
+
+import org.junit.Test;
 
 public class addOne {
 

@@ -1,12 +1,15 @@
-package july1st.breakoutsession.program;
+package newtestleaf.Foundation;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
+
 
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 import java.util.TreeSet;
+
+import org.junit.Test;
+
+import junit.framework.Assert;
 
 public class uniqueOccuranceOfGivenIntArray {
 

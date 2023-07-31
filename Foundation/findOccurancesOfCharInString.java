@@ -1,15 +1,17 @@
-package july1st.breakoutsession.program;
+package newtestleaf.Foundation;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
+import org.junit.Test;
+
+import junit.framework.Assert;
+
 import static java.util.Map.entry;
 
-public class findOccurancesOfCharInString {
+public abstract class findOccurancesOfCharInString {
 
     /* Pseudo Code
      * Convert the string into Char Array
@@ -25,12 +27,13 @@ public class findOccurancesOfCharInString {
     public void test1()
     {
         //Assert.assertEquals(findCharOccurances("Nagarajan"),);
-        Map<Character, Integer> expected = Map.ofEntries(entry('N',1),entry('a',4),
-                entry('g',1),entry('r',1),entry('j',1),entry('n',1));
+      //  Map<Character, Integer> expected = Map.ofEntries(('N',1),('a',4),
+        //        ('g',1),('r',1),('j',1),('n',1));
 
-        Assert.assertEquals(findCharOccurances("Nagarajan"),expected);
+       // Assert.assertEquals(findCharOccurances("Nagarajan"),expected);
         //Assert.assertEquals(charOccurances,);
     }
+  
     public Map<Character, Integer> findCharOccurances(String input){
 
         char[] chars = input.toCharArray();

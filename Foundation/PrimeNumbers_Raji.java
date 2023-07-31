@@ -1,7 +1,8 @@
-package july1st.breakoutsession.program;
+package newtestleaf.Foundation;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
+import org.junit.Test;
+
+import junit.framework.Assert;
 
 public class PrimeNumbers_Raji {
 

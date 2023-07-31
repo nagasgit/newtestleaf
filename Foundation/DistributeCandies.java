@@ -1,10 +1,12 @@
-package july8.homework;
+package newtestleaf.Foundation;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
 
 import java.util.Set;
 import java.util.TreeSet;
+
+import org.junit.Test;
+
+import junit.framework.Assert;
 
 /*
 Alice has n candies, where the ith candy is of type candyType[i].

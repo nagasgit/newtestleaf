@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package newtestleaf.Foundation;
 
 import org.junit.Test;

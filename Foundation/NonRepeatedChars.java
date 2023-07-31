@@ -1,11 +1,14 @@
-package july1st.breakoutsession.program;
+package newtestleaf.Foundation;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
+
 
 import java.lang.reflect.MalformedParameterizedTypeException;
 import java.util.HashMap;
 import java.util.Map;
+
+import org.junit.Test;
+
+import junit.framework.Assert;
 
 public class NonRepeatedChars {
 
